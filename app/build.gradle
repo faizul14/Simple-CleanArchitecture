@@ -52,8 +52,8 @@ dependencies {
 //    implementation "org.koin:koin-core:2.1.6"
 //    implementation "org.koin:koin-android:2.1.6"
     //depedenci koin fix for now : 08-08-2022
-    implementation "io.insert-koin:koin-android:2.1.6"
-    implementation "io.insert-koin:koin-android-viewmodel:2.1.6"
+    implementation "io.insert-koin:koin-android:3.2.0"
+//    implementation "io.insert-koin:koin-android-viewmodel:2.1.6"
 //    implementation "org.koin:koin-android-viewmodel:2.1.6"
 
     //koin test
