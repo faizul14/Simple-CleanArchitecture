@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.example.mycleanarcitechture.domain.NameEntity
 import com.example.mycleanarcitechture.domain.NameUseCase
 
-class MainViewModel(private val nameUseCase: NameUseCase) : ViewModel() {
+class MainViewModel(val nameUseCase: NameUseCase) : ViewModel() {
     private val _nama = MutableLiveData<NameEntity>()
     val nama : LiveData<NameEntity> = _nama
 
